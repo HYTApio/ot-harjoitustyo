@@ -1,5 +1,6 @@
-# README OTSIKKO
-## Viikko 1
+# Ohjelmistotekniika, harjoitustyö
+## Tehtävät
+### Viikko 1
 **Tämä on tärkeää** _muotoilua_
 
 [gitlog.txt](https://github.com/HYTApio/ot-harjoitustyo/blob/master/laskarit/viikko1/gitlog.txt)
