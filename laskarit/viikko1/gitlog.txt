@@ -1,0 +1,115 @@
+commit 37a1f92e7151ecc0eabf026f5f4e2a0081e4a44a
+Author: Tapio Uzal <tauzal@cubbli20-gold.local>
+Date:   Tue Mar 15 16:33:52 2022 +0200
+
+    delete and rename
+
+ tiedostoja/file2             | 0
+ tiedostoja/{file1 => file22} | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+commit c67bfe777bd4e50404ef3ef22d53fe6bc58f7b5e
+Author: Tapio Uzal <tauzal@cubbli20-gold.local>
+Date:   Tue Mar 15 16:29:33 2022 +0200
+
+    uusia asioita
+
+ tiedostoja/file1 | 0
+ tiedostoja/file2 | 0
+ tiedostoja/file3 | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 411305b7ae8bc09d435dd2cda16a310018f1dbac
+Author: Tapio Uzal <tauzal@cubbli20-gold.local>
+Date:   Tue Mar 15 16:24:37 2022 +0200
+
+    muuutettu -p
+
+ eka.txt    | 44 +-------------------------------------------
+ kolmas.txt |  2 +-
+ 2 files changed, 2 insertions(+), 44 deletions(-)
+
+commit 88b379e2a2fb1f306f9bc9dc57f2d13b3e3ef109
+Author: Tapio Uzal <tauzal@cubbli20-gold.local>
+Date:   Tue Mar 15 16:21:24 2022 +0200
+
+    uudelleen nimeäminen
+
+ tiedosto.txt => eka.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit f352f27d49061e321c271c7ea73903b67bc598b4
+Author: Tapio Uzal <tauzal@cubbli20-gold.local>
+Date:   Tue Mar 15 16:20:17 2022 +0200
+
+    poisto
+
+ toinen.txt | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit 35c49feefd15356a48614c873afbe5a5ced80328
+Author: Tapio Uzal <tauzal@cubbli20-gold.local>
+Date:   Tue Mar 15 16:15:09 2022 +0200
+
+    poisto ja lisäys
+
+ tiedosto.txt | 951 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 951 insertions(+)
+
+commit 213f8577d38dea1eff954ca6db9dafe7f02821bc
+Author: Tapio Uzal <tauzal@cubbli20-gold.local>
+Date:   Tue Mar 15 16:12:55 2022 +0200
+
+    paljon tekstiä
+
+ tiedosto.txt | 12012 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 12012 insertions(+)
+
+commit f7147570c16b44df961cea7144eade3d06335625
+Author: Tapio Uzal <tauzal@cubbli20-gold.local>
+Date:   Tue Mar 15 16:02:28 2022 +0200
+
+    luotu
+
+ "stuff/nelj\303\244s.txt" | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 4b20a1b700f8ef0ceae5dbe67841153d5c63bacb
+Author: Tapio Uzal <tauzal@cubbli20-gold.local>
+Date:   Tue Mar 15 15:56:56 2022 +0200
+
+    muutettu
+
+ kolmas.txt | 1 +
+ toinen.txt | 1 +
+ 2 files changed, 2 insertions(+)
+
+commit 774011fb8a994afe4cfbf8ef76d43f37a0ee707a
+Author: Tapio Uzal <tauzal@cubbli20-gold.local>
+Date:   Tue Mar 15 15:55:43 2022 +0200
+
+    luotu uusi
+
+ kolmas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit ab775a8267efc1f150836d5d48667b707c9f55fe
+Author: Tapio Uzal <tauzal@cubbli20-gold.local>
+Date:   Tue Mar 15 15:52:55 2022 +0200
+
+    muutos ja lisäys
+
+ tiedosto.txt | 2 ++
+ toinen.txt   | 0
+ 2 files changed, 2 insertions(+)
+
+commit da61f3626bab5e1964b71a11a9b107718be82f3a
+Author: Tapio Uzal <tauzal@cubbli20-gold.local>
+Date:   Tue Mar 15 15:49:17 2022 +0200
+
+    tiedosto.txt luotu
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+
