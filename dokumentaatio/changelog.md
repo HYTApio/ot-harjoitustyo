@@ -1,6 +1,6 @@
-#Changelog
+# Changelog
 
-##Viikko 3
+## Viikko 3
 * Pelin ruudukko näkyy
 * Ensimmäinen pala toimii
 * Tehty Pieces-luokka jossa on jokaisen palan tiedot
