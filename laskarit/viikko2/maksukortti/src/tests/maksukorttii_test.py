@@ -1,6 +1,6 @@
 
 import unittest
-from maksukortti import Maksukortti
+from laskarit.viikko2.maksukortti.src.maksukorttii import Maksukortti
 
 class TestMaksukortti(unittest.TestCase):
     def setUp(self):
