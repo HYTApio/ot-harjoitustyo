@@ -1,32 +1,39 @@
 import pygame
 
-window_width = 800
-window_height = 700
-play_width = 300 
-play_height = 600 
-square_size = 30
-play_top_left_x = (window_width - play_width) // 2
-play_top_left_y = window_height - play_height
+WINDOW_WIDTH = 800
+WINDOW_HEIGHT = 700
+PLAY_WIDTH = 300
+PLAY_HEIGHT = 600
+SQUARE_SIZE = 30
+PLAY_TOP_LEFT_X = (WINDOW_WIDTH - PLAY_WIDTH) // 2
+PLAY_TOP_LEFT_Y = WINDOW_HEIGHT - PLAY_HEIGHT
 
-def create_grid(locked_positions={}):
-    grid = [[(0,0,0) for x in range(10)] for x in range(20)]
-    for i in range(len(grid)):
-        for j in range(len(grid[i])):
-            if (j,i) in locked_positions:
-                c = locked_positions[(j,i)]
-                grid[i][j] = c
+
+def create_grid(locked_positions):
+    grid = [[(0, 0, 0) for x in range(10)] for x in range(20)]
+    for i in enumerate(grid):
+        for j in enumerate(grid[i[0]]):
+            if (j[0], i[0]) in locked_positions:
+                locked = locked_positions[(j[0], i[0])]
+                grid[i[0]][j[0]] = locked
     return grid
 
+
 def draw_grid(window, grid):
-    for i in range(len(grid)):
-        pygame.draw.line(window, (128,128,128), (play_top_left_x, play_top_left_y+i*square_size), (play_top_left_x+play_width, play_top_left_y+i*square_size))
-        for j in range(len(grid[i])):
-            pygame.draw.line(window, (128, 128, 128), (play_top_left_x+j*square_size, play_top_left_y),(play_top_left_x+j*square_size, play_top_left_y+play_height))
+    for i in enumerate(grid):
+        pygame.draw.line(window, (128, 128, 128), (PLAY_TOP_LEFT_X, PLAY_TOP_LEFT_Y +
+        i[0]*SQUARE_SIZE), (PLAY_TOP_LEFT_X+PLAY_WIDTH, PLAY_TOP_LEFT_Y+i[0]*SQUARE_SIZE))
+        for j in enumerate(grid[i[0]]):
+            pygame.draw.line(window, (128, 128, 128), (PLAY_TOP_LEFT_X+j[0]*SQUARE_SIZE,
+            PLAY_TOP_LEFT_Y), (PLAY_TOP_LEFT_X+j[0]*SQUARE_SIZE, PLAY_TOP_LEFT_Y+PLAY_HEIGHT))
+
 
 def draw_window(window, grid):
     window.fill((0, 0, 0))
-    for i in range(len(grid)):
-        for j in range(len(grid[i])):
-            pygame.draw.rect(window, grid[i][j], (play_top_left_x + j*square_size, play_top_left_y + i*square_size, square_size, square_size), 0)
+    for i in enumerate(grid):
+        for j in enumerate(grid[i[0]]):
+            pygame.draw.rect(window, grid[i[0]][j[0]], (PLAY_TOP_LEFT_X + j[0]*SQUARE_SIZE,
+            PLAY_TOP_LEFT_Y + i[0]*SQUARE_SIZE, SQUARE_SIZE, SQUARE_SIZE), 0)
     draw_grid(window, grid)
-    pygame.draw.rect(window, (128, 128, 128), (play_top_left_x, play_top_left_y, play_width, play_height), 2)
+    pygame.draw.rect(window, (128, 128, 128), (PLAY_TOP_LEFT_X,
+    PLAY_TOP_LEFT_Y, PLAY_WIDTH, PLAY_HEIGHT), 2)
