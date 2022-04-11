@@ -8,3 +8,5 @@
 [Työaikakirjanpito](https://github.com/HYTApio/ot-harjoitustyo/blob/master/dokumentaatio/tuntikirjanpito.md)
 
 [Changelog](https://github.com/HYTApio/ot-harjoitustyo/blob/master/dokumentaatio/changelog.md)
+
+[Arkkitehtuuri](https://github.com/HYTApio/ot-harjoitustyo/blob/master/dokumentaatio/arkkitehtuuri.md)
