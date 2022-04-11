@@ -5,3 +5,6 @@
 * 3.4 2 tuntia suunnitteluun ja toteutuksen aloitus
 * 4.4 5 tuntia kokeilua ja toteutusta
 * 5.4 tunti testien asennus ja kokeilua
+* 10.4 5 tuntia koodin parantamista ja uusien ominaisuuksien tekoa
+* 11.4 8 tuntia rakenteen muuttoa ja dokumentaatiota
+ 
