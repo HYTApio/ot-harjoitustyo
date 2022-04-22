@@ -15,7 +15,7 @@
 
 ### Ohjelman asentaminen
 
-1. Asenna riippuvuudet komennolla:
+Asenna riippuvuudet komennolla:
 
 ```bash
 poetry install
