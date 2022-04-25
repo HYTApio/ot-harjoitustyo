@@ -7,4 +7,7 @@
 * 5.4 tunti testien asennus ja kokeilua
 * 10.4 5 tuntia koodin parantamista ja uusien ominaisuuksien tekoa
 * 11.4 8 tuntia rakenteen muuttoa ja dokumentaatiota
+* 21.4 3 tuntia rakenteen lisäytstä
+* 22.4 5 tuntia rakenteen lisäystä
+* 25.4 2 tuntia dokumentaatiota
  
