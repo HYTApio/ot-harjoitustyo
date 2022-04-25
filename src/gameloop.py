@@ -1,24 +1,26 @@
 import pygame
-from grid import create_grid, draw_window
+from grid import create_grid, draw_next_shape, draw_window, clear_rows
 from pieces import free_space, get_shape, piece_positions, game_lost
 
 class GameLoop:
     def __init__(self):
-        self.__clock = pygame.time.Clock()
         self.__fall_time = 0
-        self.__fall_speed = 0.2
+        self.__fall_speed = 0.5
         self.__change_piece = False
         self.__piece = get_shape()
         self.__locked_positions = {}
         self.__grid = create_grid(self.__locked_positions)
-        self.__window = pygame.display.set_mode((800, 700))
+        self.__score = 0
+        self.__next_piece = get_shape()
 
     def start(self):
+        window = pygame.display.set_mode((1000, 800))
+        clock = pygame.time.Clock()
         while True:
             self.__grid = create_grid(self.__locked_positions)
-            self.__fall_time += self.__clock.get_rawtime()
+            self.__fall_time += clock.get_rawtime()
             self.__fall()
-            self.__clock.tick()
+            clock.tick()
             if self.__handle_events() is False:
                 break
             self.__draw_piece()
@@ -26,7 +28,8 @@ class GameLoop:
                 self.__change()
             if game_lost(self.__locked_positions):
                 break
-            draw_window(self.__window, self.__grid)
+            draw_window(window, self.__grid, self.__score)
+            draw_next_shape(self.__next_piece, window)
             pygame.display.update()
 
 
@@ -66,6 +69,8 @@ class GameLoop:
         if self.__fall_time/1000 > self.__fall_speed:
             self.__fall_time = 0
             self.__piece.y_row += 1
+            if self.__fall_speed > 0.2:
+                self.__fall_speed-=0.005
             if not free_space(self.__piece, self.__grid) and self.__piece.y_row > 0:
                 self.__piece.y_row -= 1
                 self.__change_piece = True
@@ -84,9 +89,7 @@ class GameLoop:
         for square in piece_position:
             position = (square[0], square[1])
             self.__locked_positions[position]=self.__piece.color
-        self.__piece = get_shape()
+        self.__piece = self.__next_piece
+        self.__next_piece = get_shape()
         self.__change_piece = False
-
-if __name__ == "__main__":
-    play = GameLoop()
-    play.start()
+        self.__score += clear_rows(self.__grid, self.__locked_positions)
