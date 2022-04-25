@@ -1,5 +1,6 @@
 def piece_shape(shape_number):
-    i_shape = [["..X.",
+    i_shape = [["....",
+                "..X.",
                 "..X.",
                 "..X.",
                 "..X."],
@@ -63,10 +64,10 @@ def piece_shape(shape_number):
                 "....",
                 ".XXX",
                 ".X.."], ]
-    j_shape = [["..X..",
+    j_shape = [[".....",
                 "..X..",
-                ".XX..",
-                "....."],
+                "..X..",
+                ".XX.."],
                [".....",
                 ".XXX.",
                 "...X.",
