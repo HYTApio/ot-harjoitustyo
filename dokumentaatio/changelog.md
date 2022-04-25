@@ -12,3 +12,9 @@
 * Palasia tulee niin kauan kunnes häviää
 * Peli loppuu kun aloituspala ei enää mahdu ruudukkoon
 * muutettu pelinpyöritysfunktio luokka rakenteeksi
+
+## Viikko 5
+* Rivin täyttyessä se tyhjenee
+* Pidetään laskua kuinka monta riviä tyhjentänyt
+* Palat tippuu nopeammin ajan kuluessa
+* Näytetään seuraava pala
