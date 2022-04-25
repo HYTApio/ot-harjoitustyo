@@ -23,6 +23,6 @@ sequenceDiagram
   participant gameloop
   participant pieces
   User->>gameloop: click "Right-key"
-  gameloop->>pieces: free_space(piece, grid)
+  gameloop-->>pieces: free_space(piece, grid)
   pieces->>gameloop: boolean
 ```
