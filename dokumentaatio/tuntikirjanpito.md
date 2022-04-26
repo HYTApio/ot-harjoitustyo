@@ -11,3 +11,4 @@
 * 22.4 5 tuntia rakenteen lisäystä
 * 25.4 2 tuntia dokumentaatiota
  
+ Summa 39 tuntia
