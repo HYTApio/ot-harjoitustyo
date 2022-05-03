@@ -18,3 +18,9 @@
 * Pidetään laskua kuinka monta riviä tyhjentänyt
 * Palat tippuu nopeammin ajan kuluessa
 * Näytetään seuraava pala
+
+## Viikko 6
+* Muutettu sovellus logiikkaa (lisätty kansiot ja siirrelty asiat niihin)
+* Luotu main menu johon pelaaja palaa pelin jälkeen
+* Alettu tallentamaan tietoa
+* Näytetään pelaajan high score
