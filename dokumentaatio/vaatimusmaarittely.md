@@ -1,17 +1,15 @@
 # Vaatimusmäärittely
 
 ## Sovelluksen tarkoitus
-Sovelluksen tarkoitus on jäljitellä suosittua peliä Tetris. Sovelluksessa on mahdollisuus valita eri tasoisia leveleitä vaikeus tason mukaan. 
+Sovelluksen tarkoitus on jäljitellä suosittua peliä Tetris.
 
 ## Suunnitellut toiminnallisuudet
--pelata tetris
+-pelata tetris peliä
 
 ## Jatkokehitysideoita perusversiosta
 Tetriksen ympärille lisäominaisuus ideoita joista voisi lähteä toteuttamaan osaa
 
--nähdä oma score
--tallentaa paras score
--pelata eri vaikeuksisia leveleitä
--lisätä omia paloja
--muuttaa asetuksia (esim värimaailmaa)
-
+* nähdä oma score (check)
+* tallentaa paras score (check)
+* nähdä seuraava palikka (check)
+* muukin näkymä kuin peli (check)
