@@ -10,5 +10,7 @@
 * 21.4 3 tuntia rakenteen lisäytstä
 * 22.4 5 tuntia rakenteen lisäystä
 * 25.4 2 tuntia dokumentaatiota
+* 2.5 10 tuntia rekenteen muuttamista ja UI parantamista
+* 3.5 10 tuntia dokumentaatiota ja testejä
  
- Summa 39 tuntia
+ Summa 59 tuntia
