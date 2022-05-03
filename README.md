@@ -11,6 +11,8 @@
 
 [Arkkitehtuuri](https://github.com/HYTApio/ot-harjoitustyo/blob/master/dokumentaatio/arkkitehtuuri.md)
 
+[Käyttöohje](https://github.com/HYTApio/ot-harjoitustyo/blob/master/dokumentaatio/kayttoohje.md)
+
 
 
 ### Ohjelman asentaminen
