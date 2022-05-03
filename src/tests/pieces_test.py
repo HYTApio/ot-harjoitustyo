@@ -1,7 +1,7 @@
 import unittest
-from pieces import *
-from shapes import *
-from grid import *
+from services.pieces_service import *
+from objects.shapes import *
+from services.grid import *
 
 
 class TestPieces(unittest.TestCase):
