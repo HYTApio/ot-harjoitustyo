@@ -5,6 +5,7 @@ Ohjelman koodin pakkausrakenne:
 Luo kuva :
 ui -> services -> repositories -> objects
                   objects
+
 Pakkaus ui sisältää käyttöliittymän koodia, services sisältää sovelluslogiikkaa, repositories tiedon tallennusta vastaavaa koodia. Objects sisältää pelin eri palaset.
 
 ## Käyttöliittymä
