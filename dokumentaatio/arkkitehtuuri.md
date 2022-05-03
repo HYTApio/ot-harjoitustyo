@@ -52,9 +52,9 @@ sequenceDiagram
   participant gameloop_a
   participant gameloop_b
   participant pieces
-  User->>gameloopa: click "Right-key"
-  gameloopa->>gameloopb: _free_space(self, change)
-  gameloopb->>pieces: free_space(piece, grid)
-  pieces-->>gameloop: boolean
+  User->>gameloop_a: click "Right-key"
+  gameloop_a->>gameloop_b: _free_space(self, change)
+  gameloop_b->>pieces: free_space(piece, grid)
+  pieces-->>gameloop_b: boolean
 ```
 Pelin sisällä kun käyttäjä painaa jotakin näppäintä niin pelissä jotkut arvot yrittää muuttua. Tämä menee gameloopin sisällä, josta tarkistetaan ensin voiko arvo muuttua ja tämän jälkeen arvoa muutetaan. Kaikki käyttäjän tekemä pelin sisällä noudottaa tätä kaavaa. 
