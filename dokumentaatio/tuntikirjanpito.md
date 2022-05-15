@@ -12,5 +12,6 @@
 * 25.4 2 tuntia dokumentaatiota
 * 2.5 10 tuntia rekenteen muuttamista ja UI parantamista
 * 3.5 10 tuntia dokumentaatiota ja testejä
+* 15.5 1 tunti loppusäätö 
  
- Summa 59 tuntia
+ Summa 60 tuntia
