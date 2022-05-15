@@ -3,6 +3,26 @@
 Ohjelman koodin pakkausrakenne:
 
 Luo kuva :
+```mermaid
+ classDiagram
+      
+      services <|-- ui
+      repositories <|-- services
+      objects <|-- services
+      objects <|-- repositories
+      
+      class ui{
+      }
+      
+      class services{
+      }
+      
+      class repositories{
+      }
+      
+      class objects{
+      }
+```
 ui -> services -> repositories -> objects
                   objects
 
