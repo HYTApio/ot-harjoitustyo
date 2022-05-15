@@ -13,6 +13,8 @@
 
 [Käyttöohje](https://github.com/HYTApio/ot-harjoitustyo/blob/master/dokumentaatio/kayttoohje.md)
 
+[Testausdokumentti](https://github.com/HYTApio/ot-harjoitustyo/blob/master/dokumentaatio/testaus.md)
+
 
 
 ### Ohjelman asentaminen
